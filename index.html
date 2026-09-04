@@ -427,7 +427,7 @@
       setStatus('analyzing');
 
       try {
-        const response = await fetch('http://localhost:8000/analyze', {
+        const response = await fetch('http://https://resume-analyzer-j1d6.onrender.com/analyze', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ resume, role })
